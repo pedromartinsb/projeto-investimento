@@ -20,4 +20,13 @@ class Controller extends BaseController
         ]);
     }
 
+    /**
+     * method to user login VIEW
+     * ========================================================================
+     */
+    public function fazerLogin() 
+    {
+        return view('user.login');
+    }
+
 }
